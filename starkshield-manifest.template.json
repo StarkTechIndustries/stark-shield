@@ -1,0 +1,27 @@
+﻿{
+    "version": "1.4",
+    "integrity_hash": "PENDING",
+    "signed_by": "<YOUR_NAME_HERE>",
+    "signed_at": null,
+    "timezone": "America/New_York",
+    "manifest_hash": null,
+    "sentinel_hash": null,
+    "immutable_core": [
+        "Starkshield.md",
+        "~/.openclaw/hooks/starkshield-enforce/handler.ts",
+        "~/.openclaw/hooks/starkshield-sentinel/handler.ts",
+        "~/.openclaw/starkshield/starkshield-manifest.json",
+        "<YOUR_AGENT_SOUL>.md"
+    ],
+    "canary_paths": [
+        "<YOUR_SECRETS_FOLDER>/canary.txt"
+    ],
+    "canary_keywords": [
+        "TRIPWIRE_ACTIVATED"
+    ],
+    "blocked_domains": [
+        "squareup.com",
+        "stripe.com",
+        "paypal.com"
+    ]
+}
